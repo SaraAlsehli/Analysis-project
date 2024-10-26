@@ -14,8 +14,11 @@ The "Apriori" model from mlxtend.frequent_patterns is employed to extract associ
  The data is transformed into a matrix format using TransactionEncoder, enabling its application in the Apriori model.
 
 •  data preprocessing steps:
+
    1- Product Filtering: Selecting top-selling products and filtering the data to retain only frequently purchased items. 
+   
    2- Data Transformation: Using TransactionEncoder to convert product data within orders into a binary matrix, allowing for the application of the Apriori model.
+   
   3- Rule Filtering: After extracting association rules, the results are filtered based on confidence and lift values.
 
 ● Colab link:
