@@ -27,6 +27,7 @@ To run each analysis, navigate to the specific task folder and follow the instru
 4. Contributors
 
 [Sara Ayed Alsehli] – Project Developer.
+
 [Lina Ibrahim Alghamdi] – Project Developer.
 
 5. License
