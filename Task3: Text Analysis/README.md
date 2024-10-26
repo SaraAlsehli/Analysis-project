@@ -7,13 +7,14 @@ It's based on data from the Kaggle Twitter Airline Sentiment collection, which c
 The data set includes multiple columns, including the tweet itself, the airline, and the type of sentiment (positive, negative, neutral), in addition to other columns that may be useful for deeper analysis.
 
 •  Model:
-The basic model used is (Naive Bayes), specifically Complement Naive Bayes, which is effective in processing text classification especially when there is imbalanced data.
-(Logistic Regression): To analyze texts
+- The basic model used is (Naive Bayes), specifically Complement Naive Bayes, which is effective in processing text classification especially when there is imbalanced data.
+- (Logistic Regression): To analyze texts
+  
 •  data preprocessing steps:
-Data Cleaning: Removing useless links, numbers, and tags from texts.
-   Remove stop words: Such as common unimportant words (such as "the", "and") using nltk library.
-   Segmentation and Rooting: Using nltk to divide text into words and retrieve roots.
-   Create a word cloud  (WordCloud): to visualize the most common words in tweets and identify key terms that are frequently used.
+- Data Cleaning: Removing useless links, numbers, and tags from texts.
+- Remove stop words: Such as common unimportant words (such as "the", "and") using nltk library.
+- Segmentation and Rooting: Using nltk to divide text into words and retrieve roots.
+- Create a word cloud  (WordCloud): to visualize the most common words in tweets and identify key terms that are frequently used.
 
 
    ● Colab link:
